@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 100PX;
+  background-color: rgba(49, 9, 70, 0.347) ;
+
+}
+  header nav {
+      padding-top: 40px;
+      margin-left: 30px;
+  }    
+
+header ul a{
+    padding: 5px;
+    margin: 10px;
+    color: rgb(45, 52, 58);
+
+}   
+ul>:first-child{
+    background-color: blue;
+}
+ul>:nth-child(3){
+    background-color: blueviolet;
+}
+ul li{
+    float: left
+}
+header ul a:hover{
+    color: aqua;
+}
+.samitoloba{
+height: 150px;
+width: 33.33%;
+background-color: chocolate;
+float: left;
+}
+.feri2{
+    background-color: rgb(136, 49, 18);
+}
+.feri3{
+    background-color: rgb(135, 91, 75);
+}
+.teqsti::first-line{
+    color: rgb(105, 6, 6);
+}
+.teqsti::first-letter{
+    font-size: 100px;
+}
+.teqsti::before{
+    content:"-";
+}
