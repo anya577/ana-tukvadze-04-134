@@ -22,36 +22,58 @@ header ul a{
     color: rgb(45, 52, 58);
 
 }   
-ul>:first-child{
-    background-color: blue;
+
+
+header ul li{
+    float: left;
+    margin: right: 10px;
 }
-ul>:nth-child(3){
-    background-color: blueviolet;
+
+.box{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(89, 71, 44);
+    text-align: center;
+    padding-top: 200px;
 }
-ul li{
-    float: left
-}
-header ul a:hover{
-    color: aqua;
-}
-.samitoloba{
-height: 150px;
-width: 33.33%;
-background-color: chocolate;
-float: left;
+
+    
+.samitolinawili{
+    width: 33.33%;
+    height: 150px;
+    background-color: aqua;
+    float: left;
+    margin-top: 20px;
+   
 }
 .feri2{
-    background-color: rgb(136, 49, 18);
+    background-color: rgb(23, 67, 79);   
 }
 .feri3{
-    background-color: rgb(135, 91, 75);
+    background-color: rgb(92, 48, 128);   
+   }
+   .floatgauqmeba1{
+       clear: both;
+   }
+   
+  .samitoloba{
+    width: 33.33%;
+    height: 120px;
+    background-color: rgb(115, 171, 25);
+    float: left;
+    margin-top: 0%;
+          
+  } 
+  .feri4{
+      background-color: rgb(102, 61, 11);
+  } 
+ .feri5{
+    background-color: coral;
 }
-.teqsti::first-line{
-    color: rgb(105, 6, 6);
+.floatgauqmeba2{
+    clear:both
 }
-.teqsti::first-letter{
-    font-size: 100px;
-}
-.teqsti::before{
-    content:"-";
+.mshobeli{
+    width: 90%;
+    margin: 0 auto;
 }
